@@ -1,0 +1,2 @@
+ignored:
+  - DL3018  # I don't want to pin package versions

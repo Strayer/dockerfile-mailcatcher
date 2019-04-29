@@ -2,7 +2,7 @@ FROM ruby:2-alpine AS build
 
 RUN apk add --no-cache build-base sqlite-dev
 
-RUN gem install mailcatcher -v 0.6.5 --no-ri --no-rdoc
+RUN gem install mailcatcher -v 0.6.5 --no-document
 
 FROM ruby:2-alpine
 
